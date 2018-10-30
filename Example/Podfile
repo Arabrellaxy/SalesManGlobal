@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SalesManGlobal_Example' do
+  pod 'SalesManGlobal', :path => '../'
+
+  target 'SalesManGlobal_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
