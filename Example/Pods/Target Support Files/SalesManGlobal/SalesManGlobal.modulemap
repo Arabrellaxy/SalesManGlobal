@@ -1,0 +1,6 @@
+framework module SalesManGlobal {
+  umbrella header "SalesManGlobal-umbrella.h"
+
+  export *
+  module * { export * }
+}

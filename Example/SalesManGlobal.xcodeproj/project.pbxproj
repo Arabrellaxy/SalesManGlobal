@@ -40,10 +40,10 @@
 		607FACE51AFB9204008FA782 /* SalesManGlobal_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesManGlobal_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7AD1189B66877796527F94B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7AD1189B66877796527F94B9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		92916E479444EA6DAA879773 /* Pods-SalesManGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManGlobal_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManGlobal_Example/Pods-SalesManGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A560D305CB5B4DEE99B03350 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SalesManGlobal.podspec; path = ../SalesManGlobal.podspec; sourceTree = "<group>"; };
-		BBE51E96C1B784EC7448987D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A560D305CB5B4DEE99B03350 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SalesManGlobal.podspec; path = ../SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BBE51E96C1B784EC7448987D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DC313BD9D58351ECF8DF81E6 /* Pods-SalesManGlobal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalesManGlobal_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SalesManGlobal_Tests/Pods-SalesManGlobal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F7CF93C29BDE89A0615B070B /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F80D668C3904222F7238F850 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -271,10 +271,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SalesManGlobal_Example/Pods-SalesManGlobal_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/SalesManGlobal/SalesManGlobal.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SalesManGlobal.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

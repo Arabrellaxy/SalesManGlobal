@@ -1,0 +1,27 @@
+{
+  "name": "SalesManGlobal",
+  "version": "0.1.0",
+  "summary": "A short description of SalesManGlobal.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Arabrellaxy/SalesManGlobal",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arabrellaxy": "xiey@sailwish.com"
+  },
+  "source": {
+    "git": "https://github.com/Arabrellaxy/SalesManGlobal.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SalesManGlobal/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
+}
