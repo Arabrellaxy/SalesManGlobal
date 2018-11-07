@@ -16,7 +16,7 @@ extension UIView {
             hud.hide(animated: true, afterDelay: 1.5)
         }
     }
-   public func showLoadingHud(view:UIView,loadingText:String) -> Void {
+   public func showLoadingHud(loadingText:String) -> Void {
         let hud = MBProgressHUD.showAdded(to: self, animated: true)
         hud.mode = .indeterminate
         hud.detailsLabel.text = loadingText.count > 0 ? loadingText: "正在加载"
