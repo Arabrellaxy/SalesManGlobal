@@ -1,7 +1,8 @@
 {
   "name": "SalesManGlobal",
-  "version": "0.1.0",
-  "summary": "A short description of SalesManGlobal.",
+  "version": "0.2.0",
+  "summary": "Global settings for SW",
+  "swift_version": "4.0",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Arabrellaxy/SalesManGlobal",
   "license": {
@@ -9,11 +10,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "Arabrellaxy": "xiey@sailwish.com"
+    "Arabrellaxy": "502624463@qq.com"
   },
   "source": {
     "git": "https://github.com/Arabrellaxy/SalesManGlobal.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

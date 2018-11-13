@@ -12,18 +12,20 @@
 		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		1F029EA93BF3C5C42FDA8E8460348D07 /* Pods-SalesManGlobal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		217D840F823B395A0B19C141D1F433DF /* Pods-SalesManGlobal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */; };
-		25776AA81E3BD18CD6F71823E987DBF1 /* SalesManGlobal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E31772CDF78E34FCAEBE84098A68C571 /* SalesManGlobal-dummy.m */; };
+		255E1F93C87FE27D5F8D01EAB34D3CAF /* SWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */; };
 		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */; };
-		6697806FEEFCC774E3413DEF1E8F9427 /* SalesManGlobal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5477E88794B15C1C4A98D7255365EF71 /* SalesManGlobal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6697806FEEFCC774E3413DEF1E8F9427 /* SalesManGlobal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
 		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88A03E480028AF915FEA92D02C78E81 /* SalesManGlobal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */; };
 		BBAC3D74C4079DAB08BD3DFB91BAA2E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		BBFB7330E94529285F02F9071AE553F4 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */; };
 		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */; };
 		C24AD3DC95D7D6B3C34517EAFB1B3A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		C3DDBAC2166544A4E780D479D29A7A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
-		ED9AA661B15EC149565B053EDE59C21E /* SWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A1D9C25C40E4EC631F10681D0F06CE1 /* SWHUD.swift */; };
+		E776A086395F2D2AD6DDB589672651C6 /* SWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454298FB597FCBF7949047305D880DC /* SWColor.swift */; };
+		EBA63B2C342684DF7FF4D6E0B0F1E4E9 /* SWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */; };
 		F450E496F871FEFFB6F59EA25D2C9E74 /* Pods-SalesManGlobal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E75C6699BD09E5ADCFAE2224CAEAF /* Pods-SalesManGlobal_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -60,45 +62,47 @@
 		123E75C6699BD09E5ADCFAE2224CAEAF /* Pods-SalesManGlobal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Tests-dummy.m"; sourceTree = "<group>"; };
 		14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SalesManGlobal.framework; path = SalesManGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManGlobal_Example.framework; path = "Pods-SalesManGlobal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E97C618858B5DF9620A1F4164C71CE /* Pods-SalesManGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManGlobal_Example.modulemap"; sourceTree = "<group>"; };
 		2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		308B524277DF75F4AE4F118589967EFA /* Pods-SalesManGlobal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		38A353F472A8EE0C313B8DEA13B59843 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3A1D9C25C40E4EC631F10681D0F06CE1 /* SWHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWHUD.swift; path = SalesManGlobal/Classes/SWHUD.swift; sourceTree = "<group>"; };
+		3454298FB597FCBF7949047305D880DC /* SWColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWColor.swift; path = SalesManGlobal/Classes/SWColor.swift; sourceTree = "<group>"; };
+		3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWImage.swift; path = SalesManGlobal/Classes/SWImage.swift; sourceTree = "<group>"; };
 		3C137C4B1042E39F81ECED830459ECC3 /* Pods-SalesManGlobal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManGlobal_Example-umbrella.h"; sourceTree = "<group>"; };
 		4A46486EBB2669EC73189D0BE2EF71CF /* Pods-SalesManGlobal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		50B818A5494421CE193AD1F14D7F2A25 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		525790BB590C5C0582385D83A3615B7C /* Pods-SalesManGlobal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManGlobal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWHUD.swift; path = SalesManGlobal/Classes/SWHUD.swift; sourceTree = "<group>"; };
 		5314C6CA765F4CED023BB21E2BDA8205 /* Pods-SalesManGlobal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Tests-resources.sh"; sourceTree = "<group>"; };
-		5477E88794B15C1C4A98D7255365EF71 /* SalesManGlobal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-umbrella.h"; sourceTree = "<group>"; };
 		5950C320A7892333831F99EB9FCF137A /* Pods-SalesManGlobal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		66818BC084EA64046E59B0110F12EBAE /* SalesManGlobal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManGlobal.xcconfig; sourceTree = "<group>"; };
+		65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-umbrella.h"; sourceTree = "<group>"; };
 		68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManGlobal_Tests-umbrella.h"; sourceTree = "<group>"; };
+		70DEAB48E2E976B2E6C2F1BB00C9EB21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0FDF6FF526E04C42E1886469A5CFAA /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7FDC0FF70DE36C3FC1051E191D554E6E /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		86620B9A38F2C356D675B3B1AEF253AA /* SalesManGlobal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-prefix.pch"; sourceTree = "<group>"; };
+		88759544EBF8D24AFB06154CADCC5CD7 /* SalesManGlobal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManGlobal.modulemap; sourceTree = "<group>"; };
 		89195343036A7F155F00C3D241E75260 /* Pods-SalesManGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8E81D9C6453E8B7B645A9FA2B0B6EB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90FCD37D3AD29DAA8EF2AEB49E3749B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CBE706726CAEB770E62DCAA8DF4EFE6 /* Pods-SalesManGlobal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManGlobal-dummy.m"; sourceTree = "<group>"; };
 		A64EB2A68373433449E90F3EBAED9925 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		B956A6CE5DCE7B93BA89D0E944B1A406 /* Pods-SalesManGlobal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF9700B2DE120E4263E7A530BB8B5020 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C15A9010C1E37A33429F14347747C488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManGlobal.xcconfig; sourceTree = "<group>"; };
 		D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Example-dummy.m"; sourceTree = "<group>"; };
 		D9221935BA87F03F74D7E55E65E20D27 /* Pods-SalesManGlobal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-resources.sh"; sourceTree = "<group>"; };
 		DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManGlobal_Tests.framework; path = "Pods-SalesManGlobal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E31772CDF78E34FCAEBE84098A68C571 /* SalesManGlobal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManGlobal-dummy.m"; sourceTree = "<group>"; };
+		E2097C674E57CABF75936CC9B7051850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E961415BA545F292665DD17564406AF9 /* SalesManGlobal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-prefix.pch"; sourceTree = "<group>"; };
 		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		ED6990CA831CE06F4DD06FFDBBE5D19C /* SalesManGlobal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManGlobal.modulemap; sourceTree = "<group>"; };
-		ED962601C57F49FCA7E58D95CF6243C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F35CAC42637995B61AD93B57B74CD217 /* Pods-SalesManGlobal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F780730AB08D6B0C5BACFDB15DC782B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,20 +144,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2115819657449BAC2F50D60D06E294E3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				90FCD37D3AD29DAA8EF2AEB49E3749B0 /* Info.plist */,
-				ED6990CA831CE06F4DD06FFDBBE5D19C /* SalesManGlobal.modulemap */,
-				66818BC084EA64046E59B0110F12EBAE /* SalesManGlobal.xcconfig */,
-				E31772CDF78E34FCAEBE84098A68C571 /* SalesManGlobal-dummy.m */,
-				86620B9A38F2C356D675B3B1AEF253AA /* SalesManGlobal-prefix.pch */,
-				5477E88794B15C1C4A98D7255365EF71 /* SalesManGlobal-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SalesManGlobal";
-			sourceTree = "<group>";
-		};
 		3CB9F0982F2021F963AE18BDEC58FFD8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,12 +153,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3CEB0E051928B759AE62043B54A1D569 /* Development Pods */ = {
+		4B8D26C6332200279177E623E3151F4E /* SalesManGlobal */ = {
 			isa = PBXGroup;
 			children = (
-				7E96F3CFBA76B160265F103DD7354015 /* SalesManGlobal */,
+				3454298FB597FCBF7949047305D880DC /* SWColor.swift */,
+				525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */,
+				3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */,
+				73368ABA0BA80BBBC2FB174B2A25E82C /* Pod */,
+				68F91B003E57AAD20E25F35BAACF3440 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = SalesManGlobal;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5836A44A75C427EBF4739C55E2315758 /* Pods */ = {
@@ -179,27 +174,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		68F91B003E57AAD20E25F35BAACF3440 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70DEAB48E2E976B2E6C2F1BB00C9EB21 /* Info.plist */,
+				88759544EBF8D24AFB06154CADCC5CD7 /* SalesManGlobal.modulemap */,
+				D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */,
+				9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */,
+				E961415BA545F292665DD17564406AF9 /* SalesManGlobal-prefix.pch */,
+				65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SalesManGlobal";
+			sourceTree = "<group>";
+		};
+		73368ABA0BA80BBBC2FB174B2A25E82C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */,
+				E2097C674E57CABF75936CC9B7051850 /* README.md */,
+				1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3CEB0E051928B759AE62043B54A1D569 /* Development Pods */,
+				C6C577D527E3615292AC3470A4E12FF0 /* Development Pods */,
 				C3CD8BA08617CB9BBFE5659F0C045F52 /* Frameworks */,
 				5836A44A75C427EBF4739C55E2315758 /* Pods */,
 				87AFD62B30AE071B89C3FF78965A29C7 /* Products */,
 				3CB9F0982F2021F963AE18BDEC58FFD8 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7E96F3CFBA76B160265F103DD7354015 /* SalesManGlobal */ = {
-			isa = PBXGroup;
-			children = (
-				3A1D9C25C40E4EC631F10681D0F06CE1 /* SWHUD.swift */,
-				F330E00614891227037041FDE6BABF20 /* Pod */,
-				2115819657449BAC2F50D60D06E294E3 /* Support Files */,
-			);
-			name = SalesManGlobal;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		87AFD62B30AE071B89C3FF78965A29C7 /* Products */ = {
@@ -275,6 +283,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C6C577D527E3615292AC3470A4E12FF0 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B8D26C6332200279177E623E3151F4E /* SalesManGlobal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		E5AAEE79A0BC2FDF5B995AB41F80BA56 /* Pods-SalesManGlobal_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -291,16 +307,6 @@
 			);
 			name = "Pods-SalesManGlobal_Tests";
 			path = "Target Support Files/Pods-SalesManGlobal_Tests";
-			sourceTree = "<group>";
-		};
-		F330E00614891227037041FDE6BABF20 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ED962601C57F49FCA7E58D95CF6243C8 /* LICENSE */,
-				38A353F472A8EE0C313B8DEA13B59843 /* README.md */,
-				50B818A5494421CE193AD1F14D7F2A25 /* SalesManGlobal.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,7 +369,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 516B712D3AA7493FEF21335BF97DDE27 /* Build configuration list for PBXNativeTarget "SalesManGlobal" */;
 			buildPhases = (
-				850A93F8D0B5EE1273AD01635B52D71A /* Sources */,
+				8F5D9CB8E2EBE6AE1CE33F544EC9B752 /* Sources */,
 				6CD42604B7561E59AC4A9E3A267CA306 /* Frameworks */,
 				D211DAB576C51AF4DD91B3785F3D1EA0 /* Headers */,
 			);
@@ -451,12 +457,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		850A93F8D0B5EE1273AD01635B52D71A /* Sources */ = {
+		8F5D9CB8E2EBE6AE1CE33F544EC9B752 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25776AA81E3BD18CD6F71823E987DBF1 /* SalesManGlobal-dummy.m in Sources */,
-				ED9AA661B15EC149565B053EDE59C21E /* SWHUD.swift in Sources */,
+				A88A03E480028AF915FEA92D02C78E81 /* SalesManGlobal-dummy.m in Sources */,
+				E776A086395F2D2AD6DDB589672651C6 /* SWColor.swift in Sources */,
+				255E1F93C87FE27D5F8D01EAB34D3CAF /* SWHUD.swift in Sources */,
+				EBA63B2C342684DF7FF4D6E0B0F1E4E9 /* SWImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -662,7 +670,7 @@
 		};
 		77E4231781FBBCE2AEDD647B88AA7654 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66818BC084EA64046E59B0110F12EBAE /* SalesManGlobal.xcconfig */;
+			baseConfigurationReference = D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -752,7 +760,7 @@
 		};
 		9463BDB9EB4BC6BA73E2A0D4F0D99050 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66818BC084EA64046E59B0110F12EBAE /* SalesManGlobal.xcconfig */;
+			baseConfigurationReference = D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
