@@ -7,7 +7,7 @@
 
 import Foundation
 extension UIImage   {
-    class  func imageNamed(name:String,classCoder:AnyClass,bundleName:String) ->UIImage {
+  public  class  func imageNamed(name:String,classCoder:AnyClass,bundleName:String) ->UIImage {
         let bundle = Bundle.init(for: classCoder)
         let path = bundle.path(forResource: bundleName, ofType: "bundle")!
         
@@ -15,7 +15,7 @@ extension UIImage   {
         let image:UIImage = UIImage.init(named: name, in: resoureBundle, compatibleWith: nil)!
           return image
     }
-    class  func imageFromColor(color:UIColor) -> UIImage {
+  public  class  func imageFromColor(color:UIColor) -> UIImage {
         let rect = CGRect.init(x: 0, y: 0, width: 1, height: 1)
         UIGraphicsBeginImageContext(rect.size)
         let context = UIGraphicsGetCurrentContext()
