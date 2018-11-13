@@ -1,6 +1,6 @@
 PODS:
   - MBProgressHUD (1.1.0)
-  - SalesManGlobal (0.2.0):
+  - SalesManGlobal (0.3.0):
     - MBProgressHUD
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
-  SalesManGlobal: 1c2dd40d575979c4f558cda0b85e88c2d6167038
+  SalesManGlobal: 18a24f17cb1550c51430186f47bfec5f97e037fd
 
 PODFILE CHECKSUM: 33f6be8c6ce17e3d1bbf79cf42611f7c4ee436e2
 

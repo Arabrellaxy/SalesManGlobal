@@ -1,6 +1,6 @@
 {
   "name": "SalesManGlobal",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "Global settings for SW",
   "swift_version": "4.0",
   "description": "TODO: Add long description of the pod here.",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/Arabrellaxy/SalesManGlobal.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
