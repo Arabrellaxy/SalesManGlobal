@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0476DD60C70053D40B71C14300133C47 /* Pods-SalesManGlobal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C137C4B1042E39F81ECED830459ECC3 /* Pods-SalesManGlobal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FC7AF144EB5F591B8894C5D5A95A9 /* MBProgressHUD-dummy.m */; };
+		10CC7B61219BF9C50082DEAE /* SWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC7B60219BF9C50082DEAE /* SWButton.swift */; };
 		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		1F029EA93BF3C5C42FDA8E8460348D07 /* Pods-SalesManGlobal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		217D840F823B395A0B19C141D1F433DF /* Pods-SalesManGlobal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */; };
@@ -59,11 +60,12 @@
 		02342ECFC72ED7B9306B2B53F430F68E /* Pods-SalesManGlobal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManGlobal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		0D546B145A7346A677D22090EEAA383A /* Pods-SalesManGlobal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManGlobal_Tests.modulemap"; sourceTree = "<group>"; };
+		10CC7B60219BF9C50082DEAE /* SWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWButton.swift; path = SalesManGlobal/Classes/SWButton.swift; sourceTree = "<group>"; };
 		123E75C6699BD09E5ADCFAE2224CAEAF /* Pods-SalesManGlobal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Tests-dummy.m"; sourceTree = "<group>"; };
 		14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SalesManGlobal.framework; path = SalesManGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManGlobal_Example.framework; path = "Pods-SalesManGlobal_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SalesManGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E97C618858B5DF9620A1F4164C71CE /* Pods-SalesManGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManGlobal_Example.modulemap"; sourceTree = "<group>"; };
 		2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		308B524277DF75F4AE4F118589967EFA /* Pods-SalesManGlobal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -79,14 +81,14 @@
 		68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManGlobal_Tests-umbrella.h"; sourceTree = "<group>"; };
 		70DEAB48E2E976B2E6C2F1BB00C9EB21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B0FDF6FF526E04C42E1886469A5CFAA /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7FDC0FF70DE36C3FC1051E191D554E6E /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		88759544EBF8D24AFB06154CADCC5CD7 /* SalesManGlobal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManGlobal.modulemap; sourceTree = "<group>"; };
 		89195343036A7F155F00C3D241E75260 /* Pods-SalesManGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		8E81D9C6453E8B7B645A9FA2B0B6EB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CBE706726CAEB770E62DCAA8DF4EFE6 /* Pods-SalesManGlobal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManGlobal-dummy.m"; sourceTree = "<group>"; };
 		A64EB2A68373433449E90F3EBAED9925 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
@@ -96,13 +98,13 @@
 		D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManGlobal.xcconfig; sourceTree = "<group>"; };
 		D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Example-dummy.m"; sourceTree = "<group>"; };
 		D9221935BA87F03F74D7E55E65E20D27 /* Pods-SalesManGlobal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-resources.sh"; sourceTree = "<group>"; };
-		DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SalesManGlobal_Tests.framework; path = "Pods-SalesManGlobal_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2097C674E57CABF75936CC9B7051850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2097C674E57CABF75936CC9B7051850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E961415BA545F292665DD17564406AF9 /* SalesManGlobal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-prefix.pch"; sourceTree = "<group>"; };
 		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		F35CAC42637995B61AD93B57B74CD217 /* Pods-SalesManGlobal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F780730AB08D6B0C5BACFDB15DC782B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +161,7 @@
 				3454298FB597FCBF7949047305D880DC /* SWColor.swift */,
 				525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */,
 				3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */,
+				10CC7B60219BF9C50082DEAE /* SWButton.swift */,
 				73368ABA0BA80BBBC2FB174B2A25E82C /* Pod */,
 				68F91B003E57AAD20E25F35BAACF3440 /* Support Files */,
 			);
@@ -238,7 +241,6 @@
 				8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */,
 				A16D0C6881DA59948052F438201FD774 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -461,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10CC7B61219BF9C50082DEAE /* SWButton.swift in Sources */,
 				A88A03E480028AF915FEA92D02C78E81 /* SalesManGlobal-dummy.m in Sources */,
 				E776A086395F2D2AD6DDB589672651C6 /* SWColor.swift in Sources */,
 				255E1F93C87FE27D5F8D01EAB34D3CAF /* SWHUD.swift in Sources */,
