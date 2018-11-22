@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment version="2304" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SWSegmentDropDown" customModule="SalesManGlobal" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="706"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="K1s-pq-wuH">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="faG-mV-PVS"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MYT-AM-h88">
+                    <rect key="frame" x="0.0" y="44" width="375" height="662"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZvY-Ww-d87">
+                            <rect key="frame" x="0.0" y="1" width="375" height="661"/>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZvY-Ww-d87" firstAttribute="top" secondItem="MYT-AM-h88" secondAttribute="top" constant="1" id="N6z-ZE-E4z"/>
+                        <constraint firstAttribute="bottom" secondItem="ZvY-Ww-d87" secondAttribute="bottom" id="U66-zf-Gry"/>
+                        <constraint firstAttribute="trailing" secondItem="ZvY-Ww-d87" secondAttribute="trailing" id="XRb-uQ-IEW"/>
+                        <constraint firstItem="ZvY-Ww-d87" firstAttribute="leading" secondItem="MYT-AM-h88" secondAttribute="leading" id="lEh-yx-es8"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="K1s-pq-wuH" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="CrD-wT-dWM"/>
+                <constraint firstItem="K1s-pq-wuH" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Ed5-aX-Tze"/>
+                <constraint firstItem="K1s-pq-wuH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="L5f-3X-Xnf"/>
+                <constraint firstAttribute="trailing" secondItem="MYT-AM-h88" secondAttribute="trailing" id="Nsq-aB-hvp"/>
+                <constraint firstItem="MYT-AM-h88" firstAttribute="top" secondItem="K1s-pq-wuH" secondAttribute="bottom" id="bQ8-Av-IDz"/>
+                <constraint firstItem="MYT-AM-h88" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eVT-UN-VKk"/>
+                <constraint firstAttribute="bottom" secondItem="MYT-AM-h88" secondAttribute="bottom" id="hId-yd-rP3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="containerView" destination="MYT-AM-h88" id="uNs-ii-i7x"/>
+                <outlet property="segmentStackView" destination="K1s-pq-wuH" id="1o2-YR-GcX"/>
+                <outlet property="tableStackView" destination="ZvY-Ww-d87" id="8Uu-0r-s1t"/>
+            </connections>
+            <point key="canvasLocation" x="42.5" y="72"/>
+        </view>
+    </objects>
+</document>

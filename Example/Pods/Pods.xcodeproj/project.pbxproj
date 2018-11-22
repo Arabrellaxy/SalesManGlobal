@@ -9,24 +9,28 @@
 /* Begin PBXBuildFile section */
 		0476DD60C70053D40B71C14300133C47 /* Pods-SalesManGlobal_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C137C4B1042E39F81ECED830459ECC3 /* Pods-SalesManGlobal_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0968524ED4DE8DF7834055C5B6089D72 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 003FC7AF144EB5F591B8894C5D5A95A9 /* MBProgressHUD-dummy.m */; };
-		10CC7B61219BF9C50082DEAE /* SWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10CC7B60219BF9C50082DEAE /* SWButton.swift */; };
+		0A58939823AD196FD2E3D12CDA4E3732 /* SWSegmentDropDown.xib in Resources */ = {isa = PBXBuildFile; fileRef = 926460F60A8EE39708ACCE525B11AB13 /* SWSegmentDropDown.xib */; };
+		102203CB21A549BC000EADFD /* SWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102203CA21A549BC000EADFD /* SWConstant.swift */; };
 		14CA32AACADBC7D008311E6F720D583D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		1F029EA93BF3C5C42FDA8E8460348D07 /* Pods-SalesManGlobal_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		217D840F823B395A0B19C141D1F433DF /* Pods-SalesManGlobal_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */; };
-		255E1F93C87FE27D5F8D01EAB34D3CAF /* SWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */; };
 		28A794912ED1E06B05D96DF5ED0AED19 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DCDFC3CF2D4AAD3B43247D71048F503 /* SalesManGlobal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A75D5124AD814A6C11867CCB4E7A45EE /* SalesManGlobal-dummy.m */; };
+		3F2F9A7D12433C69213D4C2CC40A23B9 /* SWHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF66916BE78F836B01BE00D7F565F282 /* SWHUD.swift */; };
+		5D3335EEB4DA5BC186712CDC52ACD15D /* SWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 977D1D63910A9739C4AFE0AB46BEAB3A /* SWImage.swift */; };
 		5EFE3C1316AE3DF65B81286439987953 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */; };
-		6697806FEEFCC774E3413DEF1E8F9427 /* SalesManGlobal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638F005B26C58A9E87F471AD7945E52C /* SWSegmentDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DA518D2BFCE460C5892C3FE117ABE2 /* SWSegmentDropDown.swift */; };
+		6697806FEEFCC774E3413DEF1E8F9427 /* SalesManGlobal-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770DCC61206033F4BDC78B8A7E578A3 /* SalesManGlobal-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		897C38C8E3C31950E2E93A4D6937CCC4 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */; };
 		A5BF8DBDD8660DBCFE712657F3D82BDA /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A88A03E480028AF915FEA92D02C78E81 /* SalesManGlobal-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */; };
+		ADD0F48F8F70BD8676AEC9312A0CDB5C /* SWButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EBA8F6C5776994C951470314ED92691 /* SWButton.swift */; };
 		BBAC3D74C4079DAB08BD3DFB91BAA2E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		BBFB7330E94529285F02F9071AE553F4 /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */; };
 		BFC3AAFFCCFE94270FA4A3040449FA18 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */; };
 		C24AD3DC95D7D6B3C34517EAFB1B3A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
 		C3DDBAC2166544A4E780D479D29A7A31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C15A9010C1E37A33429F14347747C488 /* Foundation.framework */; };
-		E776A086395F2D2AD6DDB589672651C6 /* SWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3454298FB597FCBF7949047305D880DC /* SWColor.swift */; };
-		EBA63B2C342684DF7FF4D6E0B0F1E4E9 /* SWImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */; };
+		ED10C6F50E6A96CF67FB376E652A2791 /* SWColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102C3E133BA9618ABBE6F2A8239E0E20 /* SWColor.swift */; };
+		EF1B403079F1071113BB91E9363064ED /* SalesManGlobal.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D39CFA263117A56BC6149F1818545184 /* SalesManGlobal.bundle */; };
 		F450E496F871FEFFB6F59EA25D2C9E74 /* Pods-SalesManGlobal_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 123E75C6699BD09E5ADCFAE2224CAEAF /* Pods-SalesManGlobal_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +56,13 @@
 			remoteGlobalIDString = 41FA54D12162DAD51D02FC58A2CD5034;
 			remoteInfo = MBProgressHUD;
 		};
+		F004B08B62516368BC0444F6C739FB95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 595518B54F298DED07E04B1414D6FA18;
+			remoteInfo = "SalesManGlobal-SalesManGlobal";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -60,51 +71,56 @@
 		02342ECFC72ED7B9306B2B53F430F68E /* Pods-SalesManGlobal_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManGlobal_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		04AB7C18C3C49A488DD4002514260CD6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		0D546B145A7346A677D22090EEAA383A /* Pods-SalesManGlobal_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManGlobal_Tests.modulemap"; sourceTree = "<group>"; };
-		10CC7B60219BF9C50082DEAE /* SWButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWButton.swift; path = SalesManGlobal/Classes/SWButton.swift; sourceTree = "<group>"; };
+		102203CA21A549BC000EADFD /* SWConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SWConstant.swift; path = SalesManGlobal/Classes/SWConstant.swift; sourceTree = "<group>"; };
+		102C3E133BA9618ABBE6F2A8239E0E20 /* SWColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWColor.swift; path = SalesManGlobal/Classes/SWColor.swift; sourceTree = "<group>"; };
+		10DA518D2BFCE460C5892C3FE117ABE2 /* SWSegmentDropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWSegmentDropDown.swift; path = SalesManGlobal/Classes/SWSegmentDropDown.swift; sourceTree = "<group>"; };
 		123E75C6699BD09E5ADCFAE2224CAEAF /* Pods-SalesManGlobal_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Tests-dummy.m"; sourceTree = "<group>"; };
 		14F16CB7A1F93EA63362E3B8C5400E9B /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SalesManGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManGlobal.xcconfig; sourceTree = "<group>"; };
+		1C936BC3F80148A1229E1C00A0BF6AFB /* SalesManGlobal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SalesManGlobal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21E97C618858B5DF9620A1F4164C71CE /* Pods-SalesManGlobal_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SalesManGlobal_Example.modulemap"; sourceTree = "<group>"; };
 		2E99036E6946B352B95F7613037B3F7C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2EBA8F6C5776994C951470314ED92691 /* SWButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWButton.swift; path = SalesManGlobal/Classes/SWButton.swift; sourceTree = "<group>"; };
 		308B524277DF75F4AE4F118589967EFA /* Pods-SalesManGlobal_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3454298FB597FCBF7949047305D880DC /* SWColor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWColor.swift; path = SalesManGlobal/Classes/SWColor.swift; sourceTree = "<group>"; };
-		3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWImage.swift; path = SalesManGlobal/Classes/SWImage.swift; sourceTree = "<group>"; };
+		30FB0810D5F4EAD17D53A2E30EDF8E24 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31DBEAF2CE303ADA0661DFA1836CD64A /* SalesManGlobal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-prefix.pch"; sourceTree = "<group>"; };
 		3C137C4B1042E39F81ECED830459ECC3 /* Pods-SalesManGlobal_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManGlobal_Example-umbrella.h"; sourceTree = "<group>"; };
+		46D59AED7AB08BF15C2D145FF3FEF236 /* Pods_SalesManGlobal_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A46486EBB2669EC73189D0BE2EF71CF /* Pods-SalesManGlobal_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		525790BB590C5C0582385D83A3615B7C /* Pods-SalesManGlobal_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SalesManGlobal_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWHUD.swift; path = SalesManGlobal/Classes/SWHUD.swift; sourceTree = "<group>"; };
 		5314C6CA765F4CED023BB21E2BDA8205 /* Pods-SalesManGlobal_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Tests-resources.sh"; sourceTree = "<group>"; };
 		5950C320A7892333831F99EB9FCF137A /* Pods-SalesManGlobal_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-umbrella.h"; sourceTree = "<group>"; };
+		6770DCC61206033F4BDC78B8A7E578A3 /* SalesManGlobal-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-umbrella.h"; sourceTree = "<group>"; };
 		68E50A577E533BE8C4F08C8AC6F484E5 /* Pods-SalesManGlobal_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SalesManGlobal_Tests-umbrella.h"; sourceTree = "<group>"; };
-		70DEAB48E2E976B2E6C2F1BB00C9EB21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70ED90B39697713401047024DE11C7FC /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		773C8B22925BECAD3CA0671D081C7CB6 /* SalesManGlobal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManGlobal.modulemap; sourceTree = "<group>"; };
 		7B0FDF6FF526E04C42E1886469A5CFAA /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7FDC0FF70DE36C3FC1051E191D554E6E /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		88759544EBF8D24AFB06154CADCC5CD7 /* SalesManGlobal.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SalesManGlobal.modulemap; sourceTree = "<group>"; };
 		89195343036A7F155F00C3D241E75260 /* Pods-SalesManGlobal_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CC88E9BB2DAE98E2B831183A06BFB8C /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		8DF7F546ACEDCE30818DEBBF7E11EDF6 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E81D9C6453E8B7B645A9FA2B0B6EB4B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		926460F60A8EE39708ACCE525B11AB13 /* SWSegmentDropDown.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SWSegmentDropDown.xib; path = SalesManGlobal/Assets/SWSegmentDropDown.xib; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		977D1D63910A9739C4AFE0AB46BEAB3A /* SWImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWImage.swift; path = SalesManGlobal/Classes/SWImage.swift; sourceTree = "<group>"; };
+		988956166AB501D66F62401BB1B215CC /* ResourceBundle-SalesManGlobal-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-SalesManGlobal-Info.plist"; sourceTree = "<group>"; };
 		9CBE706726CAEB770E62DCAA8DF4EFE6 /* Pods-SalesManGlobal_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManGlobal-dummy.m"; sourceTree = "<group>"; };
 		A64EB2A68373433449E90F3EBAED9925 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		A75D5124AD814A6C11867CCB4E7A45EE /* SalesManGlobal-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SalesManGlobal-dummy.m"; sourceTree = "<group>"; };
+		ACB3D7B7E65ED91AF83BED9C78C750FF /* SalesManGlobal.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SalesManGlobal.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B956A6CE5DCE7B93BA89D0E944B1A406 /* Pods-SalesManGlobal_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SalesManGlobal_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BF9700B2DE120E4263E7A530BB8B5020 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C15A9010C1E37A33429F14347747C488 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SalesManGlobal.xcconfig; sourceTree = "<group>"; };
+		D39CFA263117A56BC6149F1818545184 /* SalesManGlobal.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesManGlobal.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D77B9D42218FB74B97B16466A7A70F6E /* Pods-SalesManGlobal_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SalesManGlobal_Example-dummy.m"; sourceTree = "<group>"; };
 		D9221935BA87F03F74D7E55E65E20D27 /* Pods-SalesManGlobal_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SalesManGlobal_Example-resources.sh"; sourceTree = "<group>"; };
-		DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalesManGlobal_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2097C674E57CABF75936CC9B7051850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E961415BA545F292665DD17564406AF9 /* SalesManGlobal-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SalesManGlobal-prefix.pch"; sourceTree = "<group>"; };
+		DE28955AB48978651BEE20C133A0F6D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E2F74E94F3016756B0DFF9AD7608FCAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA7EF56646DB1B2F653740B0FB77850B /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EF66916BE78F836B01BE00D7F565F282 /* SWHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SWHUD.swift; path = SalesManGlobal/Classes/SWHUD.swift; sourceTree = "<group>"; };
 		F35CAC42637995B61AD93B57B74CD217 /* Pods-SalesManGlobal_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SalesManGlobal_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3F1EC203A50495835F401918B3EC86D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F780730AB08D6B0C5BACFDB15DC782B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +138,13 @@
 			files = (
 				C3DDBAC2166544A4E780D479D29A7A31 /* Foundation.framework in Frameworks */,
 				BBFB7330E94529285F02F9071AE553F4 /* MBProgressHUD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF1A25BE9E75D66C9BEC159ED5CB823B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +169,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		250D1E7C591D98F39525ADFE631019A2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F74E94F3016756B0DFF9AD7608FCAE /* Info.plist */,
+				988956166AB501D66F62401BB1B215CC /* ResourceBundle-SalesManGlobal-Info.plist */,
+				773C8B22925BECAD3CA0671D081C7CB6 /* SalesManGlobal.modulemap */,
+				17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */,
+				A75D5124AD814A6C11867CCB4E7A45EE /* SalesManGlobal-dummy.m */,
+				31DBEAF2CE303ADA0661DFA1836CD64A /* SalesManGlobal-prefix.pch */,
+				6770DCC61206033F4BDC78B8A7E578A3 /* SalesManGlobal-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SalesManGlobal";
+			sourceTree = "<group>";
+		};
+		2DECAEFCEA29C389F3E03009150CAD21 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46D4D5640B3B133C059BC65CD4A8EB92 /* SalesManGlobal */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		3CB9F0982F2021F963AE18BDEC58FFD8 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,15 +201,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4B8D26C6332200279177E623E3151F4E /* SalesManGlobal */ = {
+		46D4D5640B3B133C059BC65CD4A8EB92 /* SalesManGlobal */ = {
 			isa = PBXGroup;
 			children = (
-				3454298FB597FCBF7949047305D880DC /* SWColor.swift */,
-				525C7CCF44C4A7DBEF18BA412EF5C8EB /* SWHUD.swift */,
-				3866EB96DA5C9FCF9D9A1EDD8F87BCF0 /* SWImage.swift */,
-				10CC7B60219BF9C50082DEAE /* SWButton.swift */,
-				73368ABA0BA80BBBC2FB174B2A25E82C /* Pod */,
-				68F91B003E57AAD20E25F35BAACF3440 /* Support Files */,
+				2EBA8F6C5776994C951470314ED92691 /* SWButton.swift */,
+				102C3E133BA9618ABBE6F2A8239E0E20 /* SWColor.swift */,
+				EF66916BE78F836B01BE00D7F565F282 /* SWHUD.swift */,
+				977D1D63910A9739C4AFE0AB46BEAB3A /* SWImage.swift */,
+				10DA518D2BFCE460C5892C3FE117ABE2 /* SWSegmentDropDown.swift */,
+				7EA41363522EE2835A23E50D5E9119F8 /* Pod */,
+				9F3006FF6296C6EF716267FFD8B4184B /* Resources */,
+				250D1E7C591D98F39525ADFE631019A2 /* Support Files */,
+				102203CA21A549BC000EADFD /* SWConstant.swift */,
 			);
 			name = SalesManGlobal;
 			path = ../..;
@@ -177,51 +226,26 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		68F91B003E57AAD20E25F35BAACF3440 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				70DEAB48E2E976B2E6C2F1BB00C9EB21 /* Info.plist */,
-				88759544EBF8D24AFB06154CADCC5CD7 /* SalesManGlobal.modulemap */,
-				D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */,
-				9DDB5F799E18FE54D9D7A51015919CAC /* SalesManGlobal-dummy.m */,
-				E961415BA545F292665DD17564406AF9 /* SalesManGlobal-prefix.pch */,
-				65CA8EC0E6465FC55A4E6326AA977F0E /* SalesManGlobal-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/SalesManGlobal";
-			sourceTree = "<group>";
-		};
-		73368ABA0BA80BBBC2FB174B2A25E82C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F9C8CED61363114ADF780AF2E6B3424E /* LICENSE */,
-				E2097C674E57CABF75936CC9B7051850 /* README.md */,
-				1EDF718170C49D596C735E4050522A07 /* SalesManGlobal.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				C6C577D527E3615292AC3470A4E12FF0 /* Development Pods */,
+				2DECAEFCEA29C389F3E03009150CAD21 /* Development Pods */,
 				C3CD8BA08617CB9BBFE5659F0C045F52 /* Frameworks */,
 				5836A44A75C427EBF4739C55E2315758 /* Pods */,
-				87AFD62B30AE071B89C3FF78965A29C7 /* Products */,
+				A66D0BA418DAB9AD3ABE2CD8EC4E3612 /* Products */,
 				3CB9F0982F2021F963AE18BDEC58FFD8 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		87AFD62B30AE071B89C3FF78965A29C7 /* Products */ = {
+		7EA41363522EE2835A23E50D5E9119F8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */,
-				20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */,
-				DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */,
-				1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */,
+				DE28955AB48978651BEE20C133A0F6D8 /* LICENSE */,
+				F3F1EC203A50495835F401918B3EC86D /* README.md */,
+				ACB3D7B7E65ED91AF83BED9C78C750FF /* SalesManGlobal.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		89A9A68C455ECA79A134E1ACABE0D009 /* iOS */ = {
@@ -244,6 +268,14 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
+		9F3006FF6296C6EF716267FFD8B4184B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				926460F60A8EE39708ACCE525B11AB13 /* SWSegmentDropDown.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		A16D0C6881DA59948052F438201FD774 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -256,6 +288,18 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		A66D0BA418DAB9AD3ABE2CD8EC4E3612 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FB0810D5F4EAD17D53A2E30EDF8E24 /* MBProgressHUD.framework */,
+				46D59AED7AB08BF15C2D145FF3FEF236 /* Pods_SalesManGlobal_Example.framework */,
+				8DF7F546ACEDCE30818DEBBF7E11EDF6 /* Pods_SalesManGlobal_Tests.framework */,
+				D39CFA263117A56BC6149F1818545184 /* SalesManGlobal.bundle */,
+				1C936BC3F80148A1229E1C00A0BF6AFB /* SalesManGlobal.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		A7284291EB19137DB8BBADA0C008DE46 /* Pods-SalesManGlobal_Example */ = {
@@ -283,14 +327,6 @@
 				89A9A68C455ECA79A134E1ACABE0D009 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C6C577D527E3615292AC3470A4E12FF0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				4B8D26C6332200279177E623E3151F4E /* SalesManGlobal */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		E5AAEE79A0BC2FDF5B995AB41F80BA56 /* Pods-SalesManGlobal_Tests */ = {
@@ -364,25 +400,44 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 750761EBB14574AA71A794FB701A85FE /* MBProgressHUD.framework */;
+			productReference = 30FB0810D5F4EAD17D53A2E30EDF8E24 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		595518B54F298DED07E04B1414D6FA18 /* SalesManGlobal-SalesManGlobal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62F6F4EC392A8FD551A26384E3FF881E /* Build configuration list for PBXNativeTarget "SalesManGlobal-SalesManGlobal" */;
+			buildPhases = (
+				C8160E7DEFF901E79B05D973F319F8A3 /* Sources */,
+				AF1A25BE9E75D66C9BEC159ED5CB823B /* Frameworks */,
+				906D2DE4AB1FDC55CC34A820674BBBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SalesManGlobal-SalesManGlobal";
+			productName = "SalesManGlobal-SalesManGlobal";
+			productReference = D39CFA263117A56BC6149F1818545184 /* SalesManGlobal.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		6CE1687632BFBB38D0FC162918CAD62B /* SalesManGlobal */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 516B712D3AA7493FEF21335BF97DDE27 /* Build configuration list for PBXNativeTarget "SalesManGlobal" */;
 			buildPhases = (
-				8F5D9CB8E2EBE6AE1CE33F544EC9B752 /* Sources */,
+				4F675200719DFE2599156589A2ECDB11 /* Sources */,
 				6CD42604B7561E59AC4A9E3A267CA306 /* Frameworks */,
+				3454178EB6F13885D2BD0400281B87D4 /* Resources */,
 				D211DAB576C51AF4DD91B3785F3D1EA0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				687F559DAB1796B27C1773D8EB3DFB60 /* PBXTargetDependency */,
+				2DB6ABB3BF6B4754D661CED3398A106A /* PBXTargetDependency */,
 			);
 			name = SalesManGlobal;
 			productName = SalesManGlobal;
-			productReference = 1504D23125974A8D89F2ED0F922FE3A3 /* SalesManGlobal.framework */;
+			productReference = 1C936BC3F80148A1229E1C00A0BF6AFB /* SalesManGlobal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		72E9E15C67B389FF9B9469BE144EC7E9 /* Pods-SalesManGlobal_Example */ = {
@@ -401,7 +456,7 @@
 			);
 			name = "Pods-SalesManGlobal_Example";
 			productName = "Pods-SalesManGlobal_Example";
-			productReference = 20F75A2130FE0E9618B339C5005E2091 /* Pods_SalesManGlobal_Example.framework */;
+			productReference = 46D59AED7AB08BF15C2D145FF3FEF236 /* Pods_SalesManGlobal_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A614C151B4E8039579E7BFD55442167B /* Pods-SalesManGlobal_Tests */ = {
@@ -418,7 +473,7 @@
 			);
 			name = "Pods-SalesManGlobal_Tests";
 			productName = "Pods-SalesManGlobal_Tests";
-			productReference = DB3D4718FFA8E2CEA29E2AF61B4FD176 /* Pods_SalesManGlobal_Tests.framework */;
+			productReference = 8DF7F546ACEDCE30818DEBBF7E11EDF6 /* Pods_SalesManGlobal_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -438,7 +493,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 87AFD62B30AE071B89C3FF78965A29C7 /* Products */;
+			productRefGroup = A66D0BA418DAB9AD3ABE2CD8EC4E3612 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -446,11 +501,45 @@
 				72E9E15C67B389FF9B9469BE144EC7E9 /* Pods-SalesManGlobal_Example */,
 				A614C151B4E8039579E7BFD55442167B /* Pods-SalesManGlobal_Tests */,
 				6CE1687632BFBB38D0FC162918CAD62B /* SalesManGlobal */,
+				595518B54F298DED07E04B1414D6FA18 /* SalesManGlobal-SalesManGlobal */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		3454178EB6F13885D2BD0400281B87D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF1B403079F1071113BB91E9363064ED /* SalesManGlobal.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906D2DE4AB1FDC55CC34A820674BBBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A58939823AD196FD2E3D12CDA4E3732 /* SWSegmentDropDown.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		4F675200719DFE2599156589A2ECDB11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				102203CB21A549BC000EADFD /* SWConstant.swift in Sources */,
+				3DCDFC3CF2D4AAD3B43247D71048F503 /* SalesManGlobal-dummy.m in Sources */,
+				ADD0F48F8F70BD8676AEC9312A0CDB5C /* SWButton.swift in Sources */,
+				ED10C6F50E6A96CF67FB376E652A2791 /* SWColor.swift in Sources */,
+				3F2F9A7D12433C69213D4C2CC40A23B9 /* SWHUD.swift in Sources */,
+				5D3335EEB4DA5BC186712CDC52ACD15D /* SWImage.swift in Sources */,
+				638F005B26C58A9E87F471AD7945E52C /* SWSegmentDropDown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		56B6E9E0332D936223F0EE7BD6AA3B29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -459,15 +548,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F5D9CB8E2EBE6AE1CE33F544EC9B752 /* Sources */ = {
+		C8160E7DEFF901E79B05D973F319F8A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10CC7B61219BF9C50082DEAE /* SWButton.swift in Sources */,
-				A88A03E480028AF915FEA92D02C78E81 /* SalesManGlobal-dummy.m in Sources */,
-				E776A086395F2D2AD6DDB589672651C6 /* SWColor.swift in Sources */,
-				255E1F93C87FE27D5F8D01EAB34D3CAF /* SWHUD.swift in Sources */,
-				EBA63B2C342684DF7FF4D6E0B0F1E4E9 /* SWImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,6 +575,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2DB6ABB3BF6B4754D661CED3398A106A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SalesManGlobal-SalesManGlobal";
+			target = 595518B54F298DED07E04B1414D6FA18 /* SalesManGlobal-SalesManGlobal */;
+			targetProxy = F004B08B62516368BC0444F6C739FB95 /* PBXContainerItemProxy */;
+		};
 		4D883567935AF514B70C38F3E2695C61 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
@@ -542,6 +632,22 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F9DC45E7FECD688EAA15426EF1E658 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SalesManGlobal";
+				INFOPLIST_FILE = "Target Support Files/SalesManGlobal/ResourceBundle-SalesManGlobal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SalesManGlobal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -605,6 +711,22 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5D4D9012C2A9D69758E89CF669A72AAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/SalesManGlobal";
+				INFOPLIST_FILE = "Target Support Files/SalesManGlobal/ResourceBundle-SalesManGlobal-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = SalesManGlobal;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -673,7 +795,7 @@
 		};
 		77E4231781FBBCE2AEDD647B88AA7654 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */;
+			baseConfigurationReference = 17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -763,7 +885,7 @@
 		};
 		9463BDB9EB4BC6BA73E2A0D4F0D99050 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D6516AE5D6974B6A1DDE5E1F771D58CE /* SalesManGlobal.xcconfig */;
+			baseConfigurationReference = 17AC8C959412DB6E1A64012605B4B6AD /* SalesManGlobal.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -907,6 +1029,15 @@
 			buildConfigurations = (
 				9463BDB9EB4BC6BA73E2A0D4F0D99050 /* Debug */,
 				77E4231781FBBCE2AEDD647B88AA7654 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62F6F4EC392A8FD551A26384E3FF881E /* Build configuration list for PBXNativeTarget "SalesManGlobal-SalesManGlobal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D4D9012C2A9D69758E89CF669A72AAB /* Debug */,
+				48F9DC45E7FECD688EAA15426EF1E658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
